@@ -1,0 +1,41 @@
+{
+  "name": "github-parmasson",
+  "version": "0.0.1",
+  "private": true,
+  "description": "a “librarian” repository to act as a conveniently catalogued and helpfully organizationally presented archival virtual “Library” (Quenya＝“Parmassë”) of GitHub code repositories that seem interesting or worthy of greater attention…",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "check": "astro check && tsc",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BFGriffith/GitHub-Parmasson.git"
+  },
+  "keywords": [],
+  "author": "B.F. Griffith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BFGriffith/GitHub-Parmasson/issues"
+  },
+  "homepage": "https://github.com/BFGriffith/GitHub-Parmasson#readme",
+  "dependencies": {
+    "astro": "^1.4.7",
+    "preact": "^10.7.3",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "@astrojs/react": "^1.2.0",
+    "@astrojs/preact": "^1.2.0",
+    "@algolia/client-search": "^4.13.1",
+    "@docsearch/css": "^3.1.0",
+    "@docsearch/react": "^3.1.0",
+    "@types/react": "^17.0.45",
+    "@types/node": "^18.0.0",
+    "@types/react-dom": "^18.0.0"
+  }
+}
